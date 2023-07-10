@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnStartNewActivity.setOnClickListener {
-            startActivity(Intent(this,LeakingActivity::class.java))
+            startActivity(Intent(this,SecondActivity::class.java))
         }
     }
 }
